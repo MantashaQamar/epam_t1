@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.div1 {
+    background-color: midnightblue;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.Top {
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+    padding: 5px 80px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 3.2rem;
+}
+
+.news {
+    padding-left: 10rem;
+}
+
+.subscribe-button {
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.subscribe-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.divMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article{
+    text-align: justify;
+    margin-right: 1rem;
+}
+
+.cat {
+    margin-left: 3rem;
+}
+
+.subscribe-form {
+    margin-right: 100px;
+}
+
+.heading {
+    font-size: large;
+    position: absolute;
+    margin-left: 690px;
+}
+
+.fig1 {
+    height: 17rem;
+    width: 18rem;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+img {
+    float: left;
+}
+
+.CR {
+    background-color: rgb(223, 102, 3);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0.1rem 0.1rem #888888;
+    cursor: pointer;
+    border-radius: 2rem;
+   
+}
+.CR:hover {
+    background-color:darkred
+}
+
+article {
+    padding-bottom: 2rem;
+}
+
+hr {
+    margin-bottom: 2rem;
+    width: 100%; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .Top {
+        padding: 5px 40px; /* padding for smaller screens */
+        font-size: 14px; /*  font size for smaller screens */
+    }
+
+    .news {
+        padding-left: 2rem; /*  padding for smaller screens */
+    }
+
+    .subscribe-button {
+        padding: 0.5rem 1rem; /*  padding for smaller screens */
+    }
+
+    .divMain {
+       flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .cat, .subscribe-form {
+       margin: 1rem 0; 
+    }
+
+    .heading {
+        margin-left: 0; 
+    }
+
+    .fig1 {
+        width: 100%; /*  spans the full width on smaller screens */
+        height: auto; 
+        margin: 0; 
+    }
+
+    .CR {
+        margin: 1rem auto; 
+    }
+    
+     .divbutton{
+          width: 100%;
+      }
+    article {
+       padding-bottom: 1rem; 
+    }
+
+    hr {
+       margin: 1rem 0; 
+    }
+}
